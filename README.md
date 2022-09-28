@@ -62,9 +62,12 @@ target_prob=0.1, env_ids = ['GremlinEnv-v0']
 1. Clone the git repository
 ``
 git clone https://github.com/astooke/rlpyt.git
+``
+2. Move to safety-gym directory
+``
 cd rlpyt
 ``
-2. Install rlpyt as editable python package
+3. Install rlpyt as editable python package
 ``
 pip install -e .
 ``
@@ -73,13 +76,16 @@ pip install -e .
 1. Clone the git repository
 ``
 git clone https://github.com/openai/safety-gym.git
+``
+2. Move to safety-gym directory
+``
 cd safety-gym
 ``
-2. Install safety-gym 
+3. Install safety-gym 
 ``
 pip install -e .
 ``
-3. It may reinstall numpy with lower version. So remove the lower versioned numpy and reinstall the newest one
+4. It may reinstall numpy with lower version. So remove the lower versioned numpy and reinstall the newest one
 ``
 pip uninstall numpy &
 pip install numpy
