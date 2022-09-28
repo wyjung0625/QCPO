@@ -1,3 +1,4 @@
+# This python file is based on rlpyt/rlpyt/runners/minibatch_rl.py at https://github.com/astooke/rlpyt
 
 import os
 import time

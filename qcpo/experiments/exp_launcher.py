@@ -1,3 +1,4 @@
+# This python file is based on rlpyt/rlpyt/utils/launching/exp_launcher.py at https://github.com/astooke/rlpyt
 
 import os
 import os.path as osp
